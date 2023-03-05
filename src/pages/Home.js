@@ -9,12 +9,10 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <div>
-                <Tags />
-                <Grid />
-                <Pagination />
-                <Footer />
-            </div>
+            <Tags />
+            <Grid />
+            <Pagination />
+            <Footer />
         </>
     );
 };
