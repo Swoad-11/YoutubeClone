@@ -6,13 +6,13 @@ const SearchForm = () => {
         <div>
             <form>
                 <input
-                    class="outline-none border-none mr-2"
+                    className="outline-none border-none mr-2"
                     type="search"
                     name="search"
                     placeholder="Search"
                 />
                 <img
-                    class="inline h-4 cursor-pointer"
+                    className="inline h-4 cursor-pointer"
                     src={search}
                     alt="Search"
                 />

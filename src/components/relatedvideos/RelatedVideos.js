@@ -4,7 +4,7 @@ import RelatedVideoItem from './RelatedVideoItem';
 const RelatedVideos = () => {
     return (
         <div
-            class="col-span-full lg:col-auto max-h-[570px] overflow-y-auto"
+            className="col-span-full lg:col-auto max-h-[570px] overflow-y-auto"
         >
             <RelatedVideoItem />
         </div>
