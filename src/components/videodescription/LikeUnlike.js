@@ -2,7 +2,7 @@ import React from 'react';
 import like from '../../assets/like.svg'
 import unlike from '../../assets/unlike.svg'
 
-const LikeUnlike = () => {
+const LikeUnlike = ({ likes, unlikes }) => {
     return (
         <div>
             <div className="flex gap-10 w-48">
@@ -17,7 +17,7 @@ const LikeUnlike = () => {
                     <div
                         className="text-sm leading-[1.7142857] text-slate-600"
                     >
-                        100K
+                        {likes}
                     </div>
                 </div>
                 <div className="flex gap-1">
@@ -31,7 +31,7 @@ const LikeUnlike = () => {
                     <div
                         className="text-sm leading-[1.7142857] text-slate-600"
                     >
-                        100K
+                        {unlikes}
                     </div>
                 </div>
             </div>
