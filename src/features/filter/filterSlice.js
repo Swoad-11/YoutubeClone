@@ -21,7 +21,7 @@ const filterSlice = createSlice({
             }
         },
         searched: (state, action) => {
-            state.search = action.payload
+            state.search = action.payload;
         }
     },
 
