@@ -10,7 +10,7 @@ const Grid = () => {
 
     useEffect(() => {
         dispatch(fetchVideos())
-    }, []);
+    }, [dispatch]);
 
     //decide what to render
     let content;
